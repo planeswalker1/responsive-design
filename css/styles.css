@@ -80,3 +80,33 @@ body {
     flex-basis: 50%;
   }
 }
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+  /*body {
+    display: flex;
+    justify-content: center;
+  }*/
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    flex-basis: 33.33%
+  }
+
+  .header {
+    height: 400px;
+  }
+
+  .sign-up {
+    height: 200px;
+    order: 1;
+  }
+
+  .content {
+    order: 2;
+  }
+}
